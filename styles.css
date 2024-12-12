@@ -1,0 +1,289 @@
+/* General styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #141414;  /* Dark background color */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Add the Google Font for 'Permanent Marker' */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Title styling (Sex and Dice Style) */
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #e50914; /* Netflix Red */
+    font-size: 56px;  /* Make title bigger */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Subtitle (Enter Names) */
+h2 {
+    font-size: 24px;
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+/* Input form container */
+#name-inputs {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;  /* Dark container background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Inputs and buttons styling */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 1px solid #e50914;  /* Red border to match Netflix theme */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #e50914;  /* Netflix Red */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f40612; /* Darker red on hover */
+}
+
+/* Game screen */
+#game-screen {
+    display: none;
+    background-color: #222;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#task-area {
+    margin: 20px 0;
+}
+
+#task {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;  /* White task text */
+    margin-bottom: 20px;
+}
+
+#task-history {
+    background-color: #333;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#task-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    background-color: #444;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+#task-list li:nth-child(odd) {
+    background-color: #555;
+}
+
+#task-list li span {
+    font-size: 20px;
+    color: white;  /* White task text */
+}
+
+/* Styling for the task done or drink buttons */
+#task-area button {
+    font-size: 18px;
+    padding: 14px 30px;
+    margin-top: 20px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    #name-inputs {
+        padding: 15px;
+    }
+
+    #task {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+/* General styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #141414;  /* Dark background color */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Add the Google Font for 'Permanent Marker' */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Title styling (Sex and Dice Style) */
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #e50914; /* Netflix Red */
+    font-size: 56px;  /* Make title bigger */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Subtitle (Enter Names) */
+h2 {
+    font-size: 24px;
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+/* Input form container */
+#name-inputs {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;  /* Dark container background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Inputs and buttons styling */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 1px solid #e50914;  /* Red border to match Netflix theme */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #e50914;  /* Netflix Red */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f40612; /* Darker red on hover */
+}
+
+/* Game screen */
+#game-screen {
+    display: none;
+    background-color: #222;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#task-area {
+    margin: 20px 0;
+}
+
+#task {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;  /* White task text */
+    margin-bottom: 20px;
+}
+
+#task-history {
+    background-color: #333;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#task-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    background-color: #444;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+#task-list li:nth-child(odd) {
+    background-color: #555;
+}
+
+#task-list li span {
+    font-size: 20px;
+    color: white;  /* White task text */
+}
+
+/* Styling for the task done or drink buttons */
+#task-area button {
+    font-size: 18px;
+    padding: 14px 30px;
+    margin-top: 20px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    #name-inputs {
+        padding: 15px;
+    }
+
+    #task {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
